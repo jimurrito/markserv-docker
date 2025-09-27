@@ -35,6 +35,6 @@ services:
 ## Auto open firefox window on boot
 
 ```bash
-docker run -d -p 8642:8642 -p 35729:35729 -v "$PWD":/app jimurrito:markserv:latest
+docker run -d -p 8642:8642 -p 35729:35729 -v "$PWD":/app jimurrito/markserv:latest
 firefox "http://localhost:8642"
 ```
